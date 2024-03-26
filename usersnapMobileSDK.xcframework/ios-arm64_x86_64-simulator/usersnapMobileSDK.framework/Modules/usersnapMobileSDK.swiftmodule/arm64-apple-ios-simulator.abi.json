@@ -1,0 +1,4614 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResponseAction",
+        "printedName": "ResponseAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cancelled",
+            "printedName": "cancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(usersnapMobileSDK.ResponseAction.Type) -> usersnapMobileSDK.ResponseAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseAction",
+                    "printedName": "usersnapMobileSDK.ResponseAction",
+                    "usr": "s:17usersnapMobileSDK14ResponseActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "usersnapMobileSDK.ResponseAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseAction",
+                        "printedName": "usersnapMobileSDK.ResponseAction",
+                        "usr": "s:17usersnapMobileSDK14ResponseActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17usersnapMobileSDK14ResponseActionO9cancelledyA2CmF",
+            "mangledName": "$s17usersnapMobileSDK14ResponseActionO9cancelledyA2CmF",
+            "moduleName": "usersnapMobileSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "submitted",
+            "printedName": "submitted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(usersnapMobileSDK.ResponseAction.Type) -> usersnapMobileSDK.ResponseAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseAction",
+                    "printedName": "usersnapMobileSDK.ResponseAction",
+                    "usr": "s:17usersnapMobileSDK14ResponseActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "usersnapMobileSDK.ResponseAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseAction",
+                        "printedName": "usersnapMobileSDK.ResponseAction",
+                        "usr": "s:17usersnapMobileSDK14ResponseActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17usersnapMobileSDK14ResponseActionO9submittedyA2CmF",
+            "mangledName": "$s17usersnapMobileSDK14ResponseActionO9submittedyA2CmF",
+            "moduleName": "usersnapMobileSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(usersnapMobileSDK.ResponseAction.Type) -> usersnapMobileSDK.ResponseAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseAction",
+                    "printedName": "usersnapMobileSDK.ResponseAction",
+                    "usr": "s:17usersnapMobileSDK14ResponseActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "usersnapMobileSDK.ResponseAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseAction",
+                        "printedName": "usersnapMobileSDK.ResponseAction",
+                        "usr": "s:17usersnapMobileSDK14ResponseActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17usersnapMobileSDK14ResponseActionO5erroryA2CmF",
+            "mangledName": "$s17usersnapMobileSDK14ResponseActionO5erroryA2CmF",
+            "moduleName": "usersnapMobileSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "usersnapMobileSDK.ResponseAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseAction",
+                    "printedName": "usersnapMobileSDK.ResponseAction",
+                    "usr": "s:17usersnapMobileSDK14ResponseActionO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17usersnapMobileSDK14ResponseActionO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17usersnapMobileSDK14ResponseActionO8rawValueACSgSS_tcfc",
+            "moduleName": "usersnapMobileSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17usersnapMobileSDK14ResponseActionO8rawValueSSvp",
+            "mangledName": "$s17usersnapMobileSDK14ResponseActionO8rawValueSSvp",
+            "moduleName": "usersnapMobileSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK14ResponseActionO8rawValueSSvg",
+                "mangledName": "$s17usersnapMobileSDK14ResponseActionO8rawValueSSvg",
+                "moduleName": "usersnapMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17usersnapMobileSDK14ResponseActionO",
+        "mangledName": "$s17usersnapMobileSDK14ResponseActionO",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsersnapService",
+        "printedName": "UsersnapService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UsersnapService",
+                "printedName": "usersnapMobileSDK.UsersnapService",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC6sharedACvpZ",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC6sharedACvpZ",
+            "moduleName": "usersnapMobileSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsersnapService",
+                    "printedName": "usersnapMobileSDK.UsersnapService",
+                    "usr": "s:17usersnapMobileSDK15UsersnapServiceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC6sharedACvgZ",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC6sharedACvgZ",
+                "moduleName": "usersnapMobileSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "usersnapMobileSDK.UsersnapServiceDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvp",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvp",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "usersnapMobileSDK.UsersnapServiceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UsersnapServiceDelegate",
+                        "printedName": "usersnapMobileSDK.UsersnapServiceDelegate",
+                        "usr": "s:17usersnapMobileSDK23UsersnapServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvg",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvg",
+                "moduleName": "usersnapMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "usersnapMobileSDK.UsersnapServiceDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UsersnapServiceDelegate",
+                        "printedName": "usersnapMobileSDK.UsersnapServiceDelegate",
+                        "usr": "s:17usersnapMobileSDK23UsersnapServiceDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvs",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvs",
+                "moduleName": "usersnapMobileSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvM",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC8delegateAA0dE8Delegate_pSgvM",
+                "moduleName": "usersnapMobileSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC5debugSbvp",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC5debugSbvp",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC5debugSbvg",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC5debugSbvg",
+                "moduleName": "usersnapMobileSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC5debugSbvs",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC5debugSbvs",
+                "moduleName": "usersnapMobileSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC5debugSbvM",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC5debugSbvM",
+                "moduleName": "usersnapMobileSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC6apiKeySSSgvp",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC6apiKeySSSgvp",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17usersnapMobileSDK15UsersnapServiceC6apiKeySSSgvg",
+                "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC6apiKeySSSgvg",
+                "moduleName": "usersnapMobileSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "usersnapMobileSDK.UsersnapServiceDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UsersnapServiceDelegate",
+                    "printedName": "usersnapMobileSDK.UsersnapServiceDelegate",
+                    "usr": "s:17usersnapMobileSDK23UsersnapServiceDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC9configure6apiKey8delegateySS_AA0dE8Delegate_pSgtF",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC9configure6apiKey8delegateySS_AA0dE8Delegate_pSgtF",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openFeedbackView",
+            "printedName": "openFeedbackView(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC16openFeedbackView10completionyys5Error_pSgcSg_tF",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC16openFeedbackView10completionyys5Error_pSgcSg_tF",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openFeedbackView",
+            "printedName": "openFeedbackView(completion:customData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC16openFeedbackView10completion10customDatayys5Error_pSgcSg_SDySSypGSgtF",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC16openFeedbackView10completion10customDatayys5Error_pSgcSg_SDySSypGSgtF",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openFeedbackView",
+            "printedName": "openFeedbackView(customData:completion:initParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC16openFeedbackView10customData10completion10initParamsySDySSypGSg_ys5Error_pSgcSgSDyS2SGSgtF",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC16openFeedbackView10customData10completion10initParamsySDySSypGSg_ys5Error_pSgcSgSDyS2SGSgtF",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openFeedbackView",
+            "printedName": "openFeedbackView(email:customData:completion:initParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC16openFeedbackView5email10customData10completion10initParamsySSSg_SDySSypGSgys5Error_pSgcSgSDyS2SGSgtF",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC16openFeedbackView5email10customData10completion10initParamsySSSg_SDySSypGSgys5Error_pSgcSgSDyS2SGSgtF",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openFeedbackView",
+            "printedName": "openFeedbackView(viewController:email:customData:completion:initParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Error?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC16openFeedbackView14viewController5email10customData10completion10initParamsySo06UIViewJ0CSg_SSSgSDySSypGSgys5Error_pSgcSgSDyS2SGSgtF",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC16openFeedbackView14viewController5email10customData10completion10initParamsySo06UIViewJ0CSg_SSSgSDySSypGSgys5Error_pSgcSgSDyS2SGSgtF",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printLanguageKeys",
+            "printedName": "printLanguageKeys()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK15UsersnapServiceC17printLanguageKeysyyF",
+            "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC17printLanguageKeysyyF",
+            "moduleName": "usersnapMobileSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17usersnapMobileSDK15UsersnapServiceC",
+        "mangledName": "$s17usersnapMobileSDK15UsersnapServiceC",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UsersnapServiceDelegate",
+        "printedName": "UsersnapServiceDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "usersnapFeedbackResponse",
+            "printedName": "usersnapFeedbackResponse(action:data:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseAction",
+                "printedName": "usersnapMobileSDK.ResponseAction",
+                "usr": "s:17usersnapMobileSDK14ResponseActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17usersnapMobileSDK23UsersnapServiceDelegateP0A16FeedbackResponse6action4data5erroryAA0H6ActionO_SDySSypGs5Error_pSgtF",
+            "mangledName": "$s17usersnapMobileSDK23UsersnapServiceDelegateP0A16FeedbackResponse6action4data5erroryAA0H6ActionO_SDySSypGs5Error_pSgtF",
+            "moduleName": "usersnapMobileSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : usersnapMobileSDK.UsersnapServiceDelegate>",
+            "sugared_genericSig": "<Self where Self : usersnapMobileSDK.UsersnapServiceDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17usersnapMobileSDK23UsersnapServiceDelegateP",
+        "mangledName": "$s17usersnapMobileSDK23UsersnapServiceDelegateP",
+        "moduleName": "usersnapMobileSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "usersnapMobileSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 11,
+      "value": "\"cancelled\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 11,
+      "value": "\"submitted\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 11,
+      "value": "\"cancelled\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 514,
+      "length": 11,
+      "value": "\"submitted\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 11,
+      "value": "\"iOSNative\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2027,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2663,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3721,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 3789,
+      "length": 72,
+      "value": "\"Feedback closed through notification, since javascript was not loaded.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4032,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 5490,
+      "length": 17,
+      "value": "\"UsersnapService\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5515,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 5565,
+      "length": 22,
+      "value": "\"No webview available\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 5697,
+      "length": 22,
+      "value": "\"No webview available\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5840,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 5916,
+      "length": 17,
+      "value": "\"UsersnapService\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5941,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 5991,
+      "length": 17,
+      "value": "\"model not valid\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6118,
+      "length": 17,
+      "value": "\"model not valid\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6222,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6297,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6365,
+      "length": 8,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6371,
+      "length": 3,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6452,
+      "length": 27,
+      "value": "\"API Key was not provided!\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6560,
+      "length": 17,
+      "value": "\"UsersnapService\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6585,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6635,
+      "length": 26,
+      "value": "\"API Key was not provided\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6771,
+      "length": 26,
+      "value": "\"API Key was not provided\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 6885,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6967,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7036,
+      "length": 8,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7042,
+      "length": 3,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7085,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7169,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7235,
+      "length": 8,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7241,
+      "length": 3,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7285,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7494,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7561,
+      "length": 8,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7567,
+      "length": 3,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7606,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7712,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7783,
+      "length": 8,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 7789,
+      "length": 3,
+      "value": "\"'\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8733,
+      "length": 66,
+      "value": "\"{email:\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8749,
+      "length": 1,
+      "value": "\", customData:\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8771,
+      "length": 1,
+      "value": "\", initParams:\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8797,
+      "length": 1,
+      "value": "\"}\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8917,
+      "length": 43,
+      "value": "\"start(\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8934,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8947,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 8958,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9007,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 9067,
+      "length": 36,
+      "value": "\"JavaScript message call: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 9102,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9560,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9839,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 9907,
+      "length": 30,
+      "value": "\"Script message body: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 9936,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 10023,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 10060,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 10932,
+      "length": 7,
+      "value": "\"close\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11029,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 11275,
+      "length": 10,
+      "value": "\"isCancel\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11307,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 11533,
+      "length": 6,
+      "value": "\"open\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11644,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11765,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "FloatLiteral",
+      "offset": 11881,
+      "length": 5,
+      "value": "0.500"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 11937,
+      "length": 343,
+      "value": "\"     if(document.getElementsByTagName('us-widget')?.[0]?.shadowRoot?.getElementById('feedback')) {\n         document.getElementsByTagName('us-widget')[0].shadowRoot.getElementById('feedback').style.paddingBottom = '35px'\n     }\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12471,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 12547,
+      "length": 41,
+      "value": "\"Feedback: JavaScript loading completed.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12847,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 12994,
+      "length": 49,
+      "value": "\"lang_usm_alert_description_feedback_sent_failed\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 13086,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13127,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 13252,
+      "length": 19,
+      "value": "\"Usersnap.Feedback\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13319,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 13630,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13815,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 14230,
+      "length": 95,
+      "value": "\"Script message body no a Dictionary. Type \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 14296,
+      "length": 2,
+      "value": "\" is not implemented: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 14324,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14451,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15322,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16267,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "Dictionary",
+      "offset": 16658,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16863,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17067,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 17135,
+      "length": 36,
+      "value": "\"JavaScript-Result: user did submit\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18442,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 18510,
+      "length": 92,
+      "value": "\"JavaScript-Result: user did cancel or we did have an error (\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 18600,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/feedback\/USMFeedbackController.swift",
+      "kind": "StringLiteral",
+      "offset": 1275,
+      "length": 26,
+      "value": "\"usersnapMobileSDK.UsersnapFeedbackController\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1567,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1596,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1688,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1786,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2334,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2370,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2687,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2979,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3555,
+      "length": 22,
+      "value": "\"_usersnapSdkMetadata\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 15,
+      "value": "\"appIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4484,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4582,
+      "length": 9,
+      "value": "\"appName\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4665,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4763,
+      "length": 12,
+      "value": "\"appVersion\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4852,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4950,
+      "length": 17,
+      "value": "\"appBuildVersion\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5049,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5147,
+      "length": 10,
+      "value": "\"deviceOS\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5337,
+      "length": 13,
+      "value": "\"deviceModel\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5428,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5526,
+      "length": 12,
+      "value": "\"deviceName\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5713,
+      "length": 16,
+      "value": "\"deviceLanguage\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5886,
+      "length": 18,
+      "value": "\"deviceResolution\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5987,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6085,
+      "length": 15,
+      "value": "\"deviceBattery\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6191,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6289,
+      "length": 20,
+      "value": "\"usersnapSDKVersion\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6386,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7125,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7150,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7303,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7328,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7663,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7684,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7856,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 8015,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 8089,
+      "length": 9,
+      "value": "\"appName\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 8164,
+      "length": 8,
+      "value": "\"apiKey\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 8242,
+      "length": 12,
+      "value": "\"customData\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMAPIModel.swift",
+      "kind": "StringLiteral",
+      "offset": 8324,
+      "length": 12,
+      "value": "\"initParams\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 8,
+      "value": "\"DEINIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2175,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2279,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2860,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2909,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2993,
+      "length": 6,
+      "value": "\"INIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3156,
+      "length": 12,
+      "value": "\"INIT-Coder\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3277,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3286,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3297,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3307,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3660,
+      "length": 8,
+      "value": "\"unkown\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3916,
+      "length": 8,
+      "value": "\"DEINIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4609,
+      "length": 6,
+      "value": "\"INIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1005,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 1481,
+      "length": 43,
+      "value": "\"https:\/\/app.usersnap.com\/mobile-extension\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1745,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2378,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3505,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3677,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5120,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5212,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5532,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 7262,
+      "length": 36,
+      "value": "\"fetch vc: no root controller found\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7746,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8475,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8866,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9090,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 9152,
+      "length": 25,
+      "value": "\"switched to main thread\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9547,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 10082,
+      "length": 22,
+      "value": "\"lang_usm_alert_title\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 10178,
+      "length": 36,
+      "value": "\"lang_usm_alert_description_offline\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 10403,
+      "length": 13,
+      "value": "\"lang_usm_ok\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10586,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10952,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11026,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11101,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11739,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11792,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "FloatLiteral",
+      "offset": 11892,
+      "length": 5,
+      "value": "0.010"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12061,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12745,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12880,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14832,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 15015,
+      "length": 50,
+      "value": "\"API Key has not been provided or is not correct!\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19248,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 19373,
+      "length": 38,
+      "value": "\"openFeedbackView: API Key not valid!\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 19473,
+      "length": 27,
+      "value": "\"Usersnap.openFeedbackView\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19545,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 19632,
+      "length": 20,
+      "value": "\"API Key not valid!\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 19730,
+      "length": 20,
+      "value": "\"API Key not valid!\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19941,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 20596,
+      "length": 44,
+      "value": "\"openFeedbackView: No root controller found\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 20702,
+      "length": 27,
+      "value": "\"Usersnap.openFeedbackView\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20774,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 20861,
+      "length": 26,
+      "value": "\"No root controller found\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 20965,
+      "length": 26,
+      "value": "\"No root controller found\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21422,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 21598,
+      "length": 28,
+      "value": "\"lang_usm_alert_title_error\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 21704,
+      "length": 46,
+      "value": "\"lang_usm_alert_description_api_model_invalid\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 21911,
+      "length": 13,
+      "value": "\"lang_usm_ok\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 22318,
+      "length": 27,
+      "value": "\"Usersnap.openFeedbackView\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22394,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 22485,
+      "length": 46,
+      "value": "\"API Model not valid, e.g. api key is missing\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 22613,
+      "length": 46,
+      "value": "\"API Model not valid, e.g. api key is missing\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22781,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 22944,
+      "length": 48,
+      "value": "\"Feedback data to send: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 22991,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 23192,
+      "length": 28,
+      "value": "\"lang_usm_title_feedback_vc\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23259,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23481,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23678,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "StringLiteral",
+      "offset": 23743,
+      "length": 25,
+      "value": "\"switched to main thread\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/USMService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24042,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 412,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 11,
+      "value": "\"Error ⛔\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 16,
+      "value": "\"Warning ⚠️\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1007,
+      "length": 8,
+      "value": "\"Memory\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 412,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 412,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "IntegerLiteral",
+      "offset": 437,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1838,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1947,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2108,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2167,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2198,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2630,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2767,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 2898,
+      "length": 66,
+      "value": "\"Usersnap | \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 2926,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 2955,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLog.swift",
+      "kind": "StringLiteral",
+      "offset": 2963,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1049,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1102,
+      "length": 3,
+      "value": "\"@\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1110,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1164,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1218,
+      "length": 49,
+      "value": "\"[A-Z0-9a-z._+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1587,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1698,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1918,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2030,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2159,
+      "length": 40,
+      "value": "\"Regex did fail with error \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2198,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2235,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2299,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2503,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2531,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2673,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2727,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2843,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2877,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2927,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3003,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3031,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3084,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3157,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3185,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3310,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3338,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3391,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3464,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3492,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3545,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3617,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3645,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3699,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3766,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4524,
+      "length": 15,
+      "value": "\"!*'()@&=+$,\/:\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4962,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5064,
+      "length": 40,
+      "value": "\"usmUrlEncode: did not work for \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5103,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5140,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "Array",
+      "offset": 5582,
+      "length": 11,
+      "value": "[\"'\", \"\"\"]"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5709,
+      "length": 8,
+      "value": "\"\\\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5716,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6625,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 6733,
+      "length": 5,
+      "value": "0.300"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7803,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7867,
+      "length": 65,
+      "value": "\"object \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 7897,
+      "length": 2,
+      "value": "\" is not valid for JSON conversion.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "Array",
+      "offset": 8107,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8305,
+      "length": 76,
+      "value": "\"object \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8335,
+      "length": 5,
+      "value": "\" could not be converted to json: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8380,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8479,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/private\/USMExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 10588,
+      "length": 63,
+      "value": "\"UIAlertController.UserSnap.Notification.offlineAlertDismissed\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 62,
+      "value": "\"UsernsapInternetMonitor.Constants.Notification.statusChanged\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "StringLiteral",
+      "offset": 991,
+      "length": 25,
+      "value": "\"UsernsapInternetMonitor\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1055,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "StringLiteral",
+      "offset": 1504,
+      "length": 33,
+      "value": "\"internect connection avaliable.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "StringLiteral",
+      "offset": 1678,
+      "length": 52,
+      "value": "\"internect connection unavaliable. \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMInternetMonitoring.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2284,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3034,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5418,
+      "length": 36,
+      "value": "\"----- JavaScript ----- \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5453,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5930,
+      "length": 5,
+      "value": "0.500"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6124,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6186,
+      "length": 76,
+      "value": "\"webview: evaluateJavaScript completed. Error \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6261,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6525,
+      "length": 40,
+      "value": "\"webview: content process did terminate\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6784,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6845,
+      "length": 94,
+      "value": "\"webview:\nnavigation: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6920,
+      "length": 1,
+      "value": "\"\nerror: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6938,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7138,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7198,
+      "length": 86,
+      "value": "\"webview: did commit navigation\n\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7283,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7499,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7559,
+      "length": 97,
+      "value": "\"webview: did start provisional navigation\n\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/webview\/USMWebviewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7655,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 782,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 969,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1145,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 39,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "\"] -> default translation used\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1339,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 1399,
+      "length": 47,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 1408,
+      "length": 1,
+      "value": "\"] loaded from Localized.strings files\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2002,
+      "length": 22,
+      "value": "\"lang_usm_alert_title\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2045,
+      "length": 6,
+      "value": "\"Hint\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2079,
+      "length": 28,
+      "value": "\"lang_usm_alert_title_error\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2128,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2163,
+      "length": 29,
+      "value": "\"lang_usm_alert_title_thanks\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2213,
+      "length": 12,
+      "value": "\"Thank you!\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2253,
+      "length": 13,
+      "value": "\"lang_usm_ok\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2287,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2319,
+      "length": 17,
+      "value": "\"lang_usm_cancel\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2357,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2393,
+      "length": 46,
+      "value": "\"lang_usm_alert_description_api_model_invalid\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2460,
+      "length": 91,
+      "value": "\"We could not proceed since some data is wrong or missing. Please check e.g. your API Key.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2575,
+      "length": 28,
+      "value": "\"lang_usm_title_feedback_vc\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2624,
+      "length": 10,
+      "value": "\"Feedback\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2662,
+      "length": 55,
+      "value": "\"lang_usm_alert_description_feedback_sent_successfully\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2738,
+      "length": 35,
+      "value": "\"Your feedback has been submitted.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2801,
+      "length": 49,
+      "value": "\"lang_usm_alert_description_feedback_sent_failed\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2871,
+      "length": 48,
+      "value": "\"We are sorry, your feedback could not be sent.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 2947,
+      "length": 36,
+      "value": "\"lang_usm_alert_description_offline\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 3004,
+      "length": 112,
+      "value": "\"We are currently offline. Sending feedback is currently not possible. Please retry sending the Feedback later.\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 3242,
+      "length": 43,
+      "value": "\"no translation available for key: \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 3284,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 3321,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3500,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "Array",
+      "offset": 3568,
+      "length": 523,
+      "value": "[\"lang_usm_cancel\", \"lang_usm_ok\", \"lang_usm_alert_description_offline\", \"lang_usm_alert_description_feedback_sent_failed\", \"lang_usm_alert_title_error\", \"lang_usm_alert_title\", \"lang_usm_alert_title_thanks\", \"lang_usm_alert_description_api_model_invalid\", \"lang_usm_title_feedback_vc\", \"lang_usm_alert_description_feedback_sent_successfully\"]"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 4107,
+      "length": 64,
+      "value": "\"\n\n\nAvailable localization keys:\nkey -> english translation\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 4216,
+      "length": 48,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 4221,
+      "length": 2,
+      "value": "\" -> \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 4263,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMLocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 4299,
+      "length": 8,
+      "value": "\"\n\n\n\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 601,
+      "length": 8,
+      "value": "12121212"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 735,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 8,
+      "value": "\"DEINIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
+      "length": 6,
+      "value": "\"INIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 12,
+      "value": "\"INIT-Coder\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1713,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1848,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3446,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3506,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3773,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/ui\/USMViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4183,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 8,
+      "value": "\"DEINIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "StringLiteral",
+      "offset": 601,
+      "length": 6,
+      "value": "\"INIT\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1104,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1129,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1278,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1303,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1527,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/models\/USMModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1672,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 653,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 716,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 783,
+      "length": 46,
+      "value": "\"Bundle could not fetch value for key \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1308,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 46,
+      "value": "\"Bundle could not fetch value for key \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 20,
+      "value": "\"CFBundleIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2410,
+      "length": 21,
+      "value": "\"CFBundleDisplayName\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2468,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2517,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2585,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 2873,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3123,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3276,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 3352,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3720,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 3752,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4027,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 4059,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 4397,
+      "length": 27,
+      "value": "\"UsersnapService.Debug.All\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4431,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4464,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5066,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5394,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 5922,
+      "length": 56,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 5936,
+      "length": 1,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 5951,
+      "length": 1,
+      "value": "\"@\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 5976,
+      "length": 1,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "FloatLiteral",
+      "offset": 6637,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "FloatLiteral",
+      "offset": 6665,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6929,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7047,
+      "length": 8,
+      "value": "\"iPhone\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7103,
+      "length": 6,
+      "value": "\"iPad\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7157,
+      "length": 5,
+      "value": "\"Mac\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7209,
+      "length": 4,
+      "value": "\"TV\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7265,
+      "length": 9,
+      "value": "\"CarPlay\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7320,
+      "length": 12,
+      "value": "\"iOS Device\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 7837,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8075,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8251,
+      "length": 10,
+      "value": "\"charging\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8334,
+      "length": 9,
+      "value": "\"plugged\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8421,
+      "length": 11,
+      "value": "\"unplugged\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8502,
+      "length": 8,
+      "value": "\"unkown\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "FloatLiteral",
+      "offset": 8558,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8631,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8756,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8764,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/hanna\/iOS-SDK\/usersnapMobileSDK\/classes\/utility\/USMBundle.swift",
+      "kind": "StringLiteral",
+      "offset": 8774,
+      "length": 1,
+      "value": "\"%\""
+    }
+  ]
+}
