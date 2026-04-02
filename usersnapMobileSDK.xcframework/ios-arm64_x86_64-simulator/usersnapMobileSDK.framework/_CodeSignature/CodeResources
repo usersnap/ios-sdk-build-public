@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/usersnapMobileSDK-Swift.h</key>
 		<data>
-		4E4dAl3BMqC6qHoIZRKrlHqgOf0=
+		yBCkP+/6C22xX1/vHg8Xhl8Qptc=
 		</data>
 		<key>Headers/usersnapMobileSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		guVvH8xTZK/WmUtqEDNcztNhBVk=
+		9z3/ili2tHxpBw7PiXGxMOG2c5Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -22,72 +22,64 @@
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		XtywCJYKyCpJzau+bsZj29Nti5o=
+		w3efSYrEOA7UoEHB3wqiG5fX3o4=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		v0Czh1htLQRkBlYXUvZo9FlkoEE=
+		9rVOALZzcWU5SC2VYicmu3GzoGM=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kCZAnKIFGaubVtS3VS2JgOqpDLw=
+		+lE+oP9dhVo+4xtdqb69FwRuBss=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7UOHpQPZ5aXy50fbXqxjsbl7zrk=
+		ROz0lAEYONW33UlOVyHLSfy98iE=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WMpFmj6zwooTDrSH+RZoLx3dgtw=
+		XAs1tKbvJ8UOqCg4FtDqIYXssOw=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7UOHpQPZ5aXy50fbXqxjsbl7zrk=
+		ROz0lAEYONW33UlOVyHLSfy98iE=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o3rcnJf1FDRFKLOuUZyuTE1CSLM=
+		Hk31lbJcKoUoPyhI6UrO2YoqU+4=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kCZAnKIFGaubVtS3VS2JgOqpDLw=
+		+lE+oP9dhVo+4xtdqb69FwRuBss=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		k4Z8dvFubEWxGNEI8RaUXLsjyIw=
+		dPrhH9QOFXnSY5lmwlh701/Cwu4=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EzyYi2NPxNQ5kcG83wEoJ6tn/sw=
+		siC8WT3Agqy27LNNzvxxDP6km0E=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		k4Z8dvFubEWxGNEI8RaUXLsjyIw=
+		dPrhH9QOFXnSY5lmwlh701/Cwu4=
 		</data>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ra3NNODQPvL/TEca37dLCz8j6vo=
+		YpJpnkt6fJHqscvOGeJ4/lUBAZk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/usersnapMobileSDK-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4E4dAl3BMqC6qHoIZRKrlHqgOf0=
-			</data>
 			<key>hash2</key>
 			<data>
-			tBbZf2N6d99c1xzWlSNK0Xsyamy41mSetXJ2ogKZaZs=
+			q0d352Y6bOql/5dOKVka5D+8R+CEuO4TXWwcc/9b9TY=
 			</data>
 		</dict>
 		<key>Headers/usersnapMobileSDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sYFqhbQpwUABbdVFTWP9ue1hdsU=
-			</data>
 			<key>hash2</key>
 			<data>
 			CicHtEgAPXh+JE+pAWb8ePVcqSltz38MCle+uKQ7dRI=
@@ -95,10 +87,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lWkpgKwrdAdx+ocqLIZXE1fFAfM=
-			</data>
 			<key>hash2</key>
 			<data>
 			wbjfmYQ9uCYUGIrqxphUCxzsuoN7ndZb6+k+rFyjorY=
@@ -106,134 +94,86 @@
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XtywCJYKyCpJzau+bsZj29Nti5o=
-			</data>
 			<key>hash2</key>
 			<data>
-			+qh4O7lJvWlJ4meP5mZBT5lzLlPYzOgeJgrF91pnQIY=
+			vEIwkIDZtK4sSy8vluh6xSjUFdLT5fgy1Rl+5/gnUrI=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v0Czh1htLQRkBlYXUvZo9FlkoEE=
-			</data>
 			<key>hash2</key>
 			<data>
-			N7pGUbv8bmgVsmTwRm39ftbMvJNS+HgS9rHGX6DNn94=
+			bO4wNXv7Q6PtK5fAUDWPKCufQt7xjlZVjC9chYpL7sw=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kCZAnKIFGaubVtS3VS2JgOqpDLw=
-			</data>
 			<key>hash2</key>
 			<data>
-			yis17ZsYlpSI5BIHwhv4Q4d/gMCsLtRbAS3ynxSFR6Y=
+			S9/S6BLNPtY5UCBpLOHwwfUelOGXLjCj67gK/g4OtG0=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7UOHpQPZ5aXy50fbXqxjsbl7zrk=
-			</data>
 			<key>hash2</key>
 			<data>
-			VL5AjXxaDQncAESiOh2I2dWgZKVLXa3f+e0t749wYNs=
+			JKhs4xTGqDTDyBcqyYX3D8egOPheUkI47Z8u3/8/ji0=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WMpFmj6zwooTDrSH+RZoLx3dgtw=
-			</data>
 			<key>hash2</key>
 			<data>
-			9UYdtztpjaeLRm+GAJaeZzISb6RfnXbqN9T2tw8BtBI=
+			oue+wj1i+Cy9SVq25XMnSpZGC02v+6Umt8V7wA8uvyk=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7UOHpQPZ5aXy50fbXqxjsbl7zrk=
-			</data>
 			<key>hash2</key>
 			<data>
-			VL5AjXxaDQncAESiOh2I2dWgZKVLXa3f+e0t749wYNs=
+			JKhs4xTGqDTDyBcqyYX3D8egOPheUkI47Z8u3/8/ji0=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			o3rcnJf1FDRFKLOuUZyuTE1CSLM=
-			</data>
 			<key>hash2</key>
 			<data>
-			7g6Dj4AQS7NqeIePmuAN3Ksnw+XTkKIk69BoBnnSCi0=
+			ydegc6tXc/GQ8zd9tTzcE1PwGig8JCSkzmja9O02vUE=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kCZAnKIFGaubVtS3VS2JgOqpDLw=
-			</data>
 			<key>hash2</key>
 			<data>
-			yis17ZsYlpSI5BIHwhv4Q4d/gMCsLtRbAS3ynxSFR6Y=
+			S9/S6BLNPtY5UCBpLOHwwfUelOGXLjCj67gK/g4OtG0=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k4Z8dvFubEWxGNEI8RaUXLsjyIw=
-			</data>
 			<key>hash2</key>
 			<data>
-			Qa6QoQXUkBWBNdkxrHviydfrZtK0/uWyDvM41P4oVC0=
+			w5+HsW1Ivf8qQwEXPo7/0ommMEhvohw1X/NumnDKMyg=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EzyYi2NPxNQ5kcG83wEoJ6tn/sw=
-			</data>
 			<key>hash2</key>
 			<data>
-			VGvYHV5wdLT2O8AdZhFfFoEwnfYH+mRX1xsH31OicaQ=
+			7xbebbzf04RO/OkVPXP0A8qumZidAUxy+iHiwa7b6hc=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k4Z8dvFubEWxGNEI8RaUXLsjyIw=
-			</data>
 			<key>hash2</key>
 			<data>
-			Qa6QoQXUkBWBNdkxrHviydfrZtK0/uWyDvM41P4oVC0=
+			w5+HsW1Ivf8qQwEXPo7/0ommMEhvohw1X/NumnDKMyg=
 			</data>
 		</dict>
 		<key>Modules/usersnapMobileSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ra3NNODQPvL/TEca37dLCz8j6vo=
-			</data>
 			<key>hash2</key>
 			<data>
-			ODMkicS6X76TR5yaNHzkq3iKb55BN35sNmYtzbS7Aeg=
+			n2CLlO1Sgcoo5MvXxH1agZx1kM8D9Cr57aX4SEbk8Bg=
 			</data>
 		</dict>
 	</dict>
